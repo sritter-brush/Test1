@@ -22,3 +22,4 @@ $ cd project_name.git
 $ git init --bare
 Initialized empty Git repository in /srv/git/project.git/
 
+## Need to add more instructions
