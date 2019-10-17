@@ -1,0 +1,24 @@
+Setting up Samba File Server;
+
+Install samba Server: sudo apt-get install samba smbfs
+
+Configure samba: /etc/samba/smb.conf
+
+Set your workgroup 
+
+set permissions [global]
+set permissions [individual users]
+
+follow the following link to add users and set password(name of the users here should be same as that in smb.conf file)
+
+https://linuxize.com/post/how-to-install-and-configure-samba-on-ubuntu-18-04/
+
+
+new git repo setup (as root)
+
+$ cd /srv/git
+$ mkdir project_name.git
+$ cd project_name.git
+$ git init --bare
+Initialized empty Git repository in /srv/git/project.git/
+
